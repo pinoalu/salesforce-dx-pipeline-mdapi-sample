@@ -14,7 +14,7 @@ set -o nounset    # fail on unset variables
 TICKS=$(echo $(date +%s | cut -b1-13))
 
 # Name of your team (optional)
-HEROKU_TEAM_NAME="appcloud-dev" 
+HEROKU_TEAM_NAME="" 
 
 # Name of the Heroku apps you'll use
 HEROKU_DEV_APP_NAME="dev$TICKS"
@@ -25,13 +25,13 @@ HEROKU_PROD_APP_NAME="prod$TICKS"
 HEROKU_PIPELINE_NAME="pipeline$TICKS"
 
 # Usernames or aliases of the orgs you're using
-DEV_HUB_USERNAME="HubOrg"
-DEV_USERNAME="DevOrg"
-STAGING_USERNAME="TestOrg"
-PROD_USERNAME="ProdOrg"
+DEV_HUB_USERNAME="pino.alu@playful-hawk-nc82k7.com"
+DEV_USERNAME="pino.alu@playful-hawk-nc82k7.com"
+STAGING_USERNAME="pino.alu@playful-hawk-nc82k7.com"
+PROD_USERNAME="pino.alu@playful-hawk-nc82k7.com"
 
 # Repository with your code
-GITHUB_REPO="wadewegner/salesforce-dx-pipeline-sample"
+GITHUB_REPO="pinoalu/salesforce-dx-pipeline-sample"
 
 ### Setup script
 
