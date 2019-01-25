@@ -22,8 +22,8 @@ HEROKU_STAGING_APP_NAME="staging$TICKS"
 HEROKU_PROD_APP_NAME="prod$TICKS"
 
 # Pipeline
-HEROKU_PIPELINE_NAME="pipeline$TICKS"
-
+#HEROKU_PIPELINE_NAME="pipeline$TICKS"
+HEROKU_PIPELINE_NAME="salesforce-dx-pipeline-sample"
 # Usernames or aliases of the orgs you're using
 DEV_HUB_USERNAME="pino.alu@playful-hawk-nc82k7.com"
 DEV_USERNAME="pino.alu@playful-hawk-nc82k7.com"
